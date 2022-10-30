@@ -1,0 +1,46 @@
+body,html{
+  width:100%;
+  height:100%;
+}
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #E35279;
+
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+background-color: rgb(50,0,20);
+width:30%;
+height:50%;
+}
+.userColumn{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+  width:30%;
+  height:50%;
+  background-color: rgb(200,0,150);
+}
+form{
+  padding: 6%;
+    color: white;
+}
+form>input{
+  width: 50%;
+}
+form>#signingup{
+  margin-top: 5%;
+}
+.userColumn>button{
+
+  margin-top: 5%;
+}
+h1{
+  color:white;
+  margin: 2%;
+}
